@@ -1,0 +1,50 @@
+{
+  "name": "strapi-provider-upload-aws-s3-custom-domain",
+  "version": "3.0.0-beta.6",
+  "description": "AWS S3 provider for strapi upload with custom domain supported",
+  "homepage": "http://strapi.io",
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi",
+    "custom domain"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.457.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "kkpoon@eml.cc",
+    "name": "kkpoon",
+    "url": "https://github.com/kkpoon"
+  },
+  "maintainers": [
+    {
+      "email": "kkpoon@eml.cc",
+      "name": "kkpoon",
+      "url": "https://github.com/kkpoon"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kkpoon/strapi-provider-upload-aws-s3-custom-domain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kkpoon/strapi-provider-upload-aws-s3-custom-domain/issues"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
